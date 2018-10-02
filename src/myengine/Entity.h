@@ -1,0 +1,4 @@
+class Entity
+{
+	int test;
+};

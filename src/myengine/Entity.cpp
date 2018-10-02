@@ -1,4 +1,6 @@
-void testsdfdsf()
+#include "Entity.h"
+
+void Entity::addcomponent()
 {
 
 }

@@ -1,7 +1,14 @@
 #include <iostream>
+#include <myengine/Entity.h>
+
+typedef double foble;
 
 int main()
 {
-	std::cout << "Hello World" << std::endl;
+
+	Entity *ent = new Entity();
+
+	ent->addcomponent();
+
 	return 0;
 }
