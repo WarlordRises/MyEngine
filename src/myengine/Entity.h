@@ -1,4 +1,19 @@
+#include <memory>
+
+class Core;
+
 class Entity
 {
-	int test;
+private:
+
+
+public:
+	void Addcomponent();
+	void Tick();
+	void Display();
+	std::shared_ptr<Core> GetCore();
+	//std::shared_ptr<>
+	
+
+
 };

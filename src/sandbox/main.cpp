@@ -8,7 +8,7 @@ int main()
 
 	Entity *ent = new Entity();
 
-	ent->addcomponent();
+	ent->Addcomponent();
 
 	return 0;
 }

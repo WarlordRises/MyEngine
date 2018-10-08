@@ -1,6 +1,6 @@
 #include "Entity.h"
 
-void Entity::addcomponent()
+void Entity::Addcomponent()
 {
 
 }
