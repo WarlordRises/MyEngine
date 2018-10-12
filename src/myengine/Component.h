@@ -4,6 +4,8 @@ class Entity;
 class Keyboard;
 class Environment;
 class Core;
+class Resources;
+class Transform;
 
 class Component
 {
@@ -15,6 +17,8 @@ public:
 	std::shared_ptr<Core> GetCore();
 	std::shared_ptr<Keyboard> GetKeyboard();
 	std::shared_ptr<Environment> GetEnvironment();
+	std::shared_ptr<Resources> GetResources();
+	std::shared_ptr<Transform> GetTransform();
 	void OnInit();
 	void OnBegin();
 	void OnTick();
