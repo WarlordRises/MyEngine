@@ -1,5 +1,6 @@
 #include <memory>
 #include <vector>
+#include <SDL2/SDL.h>
 
 class Environment;
 class Entity;
@@ -18,6 +19,4 @@ public:
 	std::shared_ptr<Entity> AddEntity();
 	void Start();
 	void Stop();
-	
-
 };

@@ -8,12 +8,12 @@
 
 std::shared_ptr<Entity> Component::GetEntity()
 {
-
+	return m_entity.lock();
 }
 
 std::shared_ptr<Core> Component::GetCore()
 {
-
+	
 }
 
 std::shared_ptr<Keyboard> Component::GetKeyboard()
@@ -22,7 +22,6 @@ std::shared_ptr<Keyboard> Component::GetKeyboard()
 }
 
 std::shared_ptr<Environment> Component::GetEnvironment()
-
 {
 
 }

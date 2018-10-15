@@ -1,20 +1,18 @@
 #include <vector>
-//#include <glm/vec3.h>
+#include <glm/glm.hpp>
 
 class Transform
 {
 private:
-	/*vec3 m_localPosition;
-	vec3 m_localRotation;
-	vec3 m_localScale;*/
+	glm::vec3 m_localPosition;
+	glm::vec3 m_localRotation;
+	glm::vec3 m_localScale;
 
 public:
-	/*void Translate(vec3 _amount);
-	void Rotate(vec3 _amount);
-	void Scale(vec3 _amount);
-	void SetLocalPosition(vec3 _position);
-	void SetLocalRotation(vec3 _rotation);
-	void SetLocalScale(vec3 _scale);*/
-
-
+	void Translate(glm::vec3 _amount);
+	void Rotate(glm::vec3 _amount);
+	void Scale(glm::vec3 _amount);
+	void SetLocalPosition(glm::vec3 _position);
+	void SetLocalRotation(glm::vec3 _rotation);
+	void SetLocalScale(glm::vec3 _scale);
 };
