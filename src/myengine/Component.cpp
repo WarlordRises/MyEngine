@@ -13,7 +13,7 @@ std::shared_ptr<Entity> Component::GetEntity()
 
 std::shared_ptr<Core> Component::GetCore()
 {
-	
+	return GetEntity()->GetCore();
 }
 
 std::shared_ptr<Keyboard> Component::GetKeyboard()

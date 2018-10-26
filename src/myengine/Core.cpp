@@ -2,6 +2,8 @@
 #include "Environment.h"
 #include "Entity.h"
 #include "Keyboard.h"
+#include "Resources.h"
+#include "Screen.h"
 
 std::shared_ptr<Core> Core::Initialise()
 {

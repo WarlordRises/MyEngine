@@ -1,7 +1,8 @@
 #include <vector>
 #include <glm/glm.hpp>
+#include "Component.h"
 
-class Transform
+class Transform : public Component
 {
 private:
 	glm::vec3 m_localPosition;

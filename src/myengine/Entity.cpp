@@ -10,7 +10,7 @@ void Entity::Addcomponent()
 
 void Entity::Tick()
 {
-
+	
 }
 
 void Entity::Display()
@@ -19,5 +19,5 @@ void Entity::Display()
 }
 std::shared_ptr<Core> Entity::GetCore()
 {
-
+	return m_core.lock();
 }

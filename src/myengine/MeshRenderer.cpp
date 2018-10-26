@@ -4,7 +4,7 @@
 
 std::shared_ptr<Mesh> MeshRenderer::GetMesh()
 {
-	return m_mesh;
+	return m_mesh.lock();
 }
 
 std::shared_ptr<Material> MeshRenderer::GetMaterial()

@@ -1,3 +1,6 @@
+#ifndef COMPONENT_H_
+#define COMPONENT_H_
+
 #include <memory>
 
 class Entity;
@@ -25,3 +28,5 @@ public:
 	void OnDisplay();
 
 };
+
+#endif

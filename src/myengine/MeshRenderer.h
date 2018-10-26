@@ -1,9 +1,10 @@
 #include <memory>
+#include "Component.h"
 
 class Mesh;
 class Material;
 
-class MeshRenderer
+class MeshRenderer : public Component
 {
 private:
 	std::weak_ptr<Mesh> m_mesh;

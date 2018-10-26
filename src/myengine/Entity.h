@@ -15,9 +15,10 @@ public:
 	void Tick();
 	void Display();
 	std::shared_ptr<Core> GetCore();
-	
 
-	
-
+	template<typename T> std::shared_ptr<T> GetComponent(int i)
+	{
+		return 
+	}
 
 };
